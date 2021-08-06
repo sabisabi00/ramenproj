@@ -1,0 +1,111 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<header>
+  <div class="header"><h1 id="title">Pedido de ramen online</h1>
+    <p id="description">Muchas gracias por confiar en nosotros. Seleccione las especificaciones para su ramen.</p></div><br></header>
+<body>
+<form id="survey-form">
+<div class="name-row">
+  <div class="label-nambre">
+    <label id="name-label">Nombre:</label>
+  </div>
+  <div class="input-nambre">
+    <input required id="name" autocomplete="on" type="text" placeholder="Nombre">
+  </div>
+</div>
+ <div class="name-row">
+  <div class="label-nambre">
+    <label for="last">Apellido:</label>
+  </div>
+  <div class="input-nambre">
+    <input required id="last" autocomplete="on" type="text" placeholder="Apellido">
+  </div>
+</div>
+<div class="name-row">
+  <div class="label-nambre">
+     <label id="email-label" for="email">Correo electrónico:</label>
+  </div>
+  <div class="input-nambre">
+    <input required id="email" autocomplete="on" type="email" placeholder="Correo electrónico">
+  </div>
+</div>
+<div class="name-row">
+  <div class="label-nambre">
+     <label for="number" id="number-label">Número de teléfono:</label>
+   </div>
+  <div class="input-nambre">
+    <input type="text"  placeholder="Número de teléfono" required>
+  </div>
+</div>
+<div class="name-row">
+  <div class="label-nambre">
+     <label class="platos" for="numero">Número de platos:</label>
+   </div>
+  <div class="input-nambre">
+    <input id="number" type="number" required pattern="[1-4]" min="1" max="4" step="1" placeholder="1-4">
+  </div>
+</div>
+<div class="row-tab">
+  <div class="label-select">
+    <label for="dropdown">Tipo de ramen:</label>
+    <div class="input-select">
+        <select id="dropdown" name="ramens">
+  <option value="nule">Elija</option>
+  <option value="Miso">Miso Ramen</option>
+  <option value="tonkotsu">Tonkotsu Ramen</option>
+  <option value="shoyu">Shoyu Ramen</option>
+  <option value="veggie">Veggie Ramen</option>
+</select>
+  </div>
+</div>
+<div class="row-tab">
+  <div class="label-radio">
+    Tipo de carne:
+  </div>
+  <div class="input-radio">
+    <div>
+        <input id="chashu" type="radio" name="carne" value="0">
+        <label for="chashu">Chashu</label>
+    </div>
+    <div>
+        <input id="solomi" type="radio" name="carne" value="1">
+        <label for="solomi">Solomillo de cerdo</label>
+    </div>
+    <div>
+        <input id="bacon" type="radio" name="carne" value="2">
+        <label for="bacon">Panceta</label>
+    </div>
+    <div>
+        <input id="pollo" type="radio" name="carne" value="3">
+        <label for="pollo">Pollo</label>
+    </div>
+  </div>
+</div>
+  <div class="row-tab">
+    <div class="label-checkbox">
+      <label>Toppings extra:</label>
+    </div>
+    <div class="input-checkbox">
+    <input id="choclo" type="checkbox" name="toppings" value="1">
+        <label for="choclo">Choclo</label><br>
+      <input id="menma" type="checkbox" name="toppings" value="2">
+        <label for="Menma">Bambú</label><br>
+    <input id="soja" type="checkbox" name="toppings" value="3">
+        <label for="soja">Brotes de soja</label><br>  
+    <input id="huevo" type="checkbox" name="toppings" value="4">
+        <label for="huevo">Huevo</label><br>  
+    </div>
+  </div>
+  <div class="row-tab">
+    <div class="label-textarea">
+      <label class="forma" for="texto" id="testo">Comentarios adicionales:</label>
+    </div>
+    <div class="input-textarea">
+      <textarea id="texto" max="150" placeholder="Comentarios adicionales..." rows="5" cols="35"></textarea>
+    </div>
+  </div>
+  <div class="row-tab">
+  <input id="submit" type="submit"><br><br>
+  </div>
+</form>
+  </body>

@@ -1,0 +1,147 @@
+@media only screen and (max-width: 700px) {}
+
+header {
+  overflow: hidden;
+ 
+}
+body {
+ background-image: linear-gradient(
+      115deg,
+      rgba(249, 241, 129, 0.8),
+      rgba(242, 159, 61, 0.7)
+    ),
+   
+url(https://images.alphacoders.com/693/thumb-1920-693688.jpg);
+  background-size: cover;
+  text-align: center;
+  
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Josefin Sans";
+  opacity: 0.7;
+}
+
+p {
+  text-align: center;
+  line-height: 5px;
+  font-size: large;
+  font-family: "Josefin Sans";
+  opacity: 0.8;
+}
+
+#survey-form {
+  font-family: "Josefin Sans";
+  font-size: large;
+  background-color: rgba(255, 152, 245, 0.8);
+width: 800px;
+  border-radius: 25px;
+  margin: 0 auto;
+  color: rgba(80, 69, 76, 1);
+  font-weight: 700;
+  overflow: auto;
+
+}
+
+.forma {
+  display:inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.name-row {
+  display: block;
+  padding-top: 15px;
+}
+.label-nambre {
+  display:inline-block;
+  width: 40%;
+  text-align: right;
+  line-height: 20px;
+}
+
+.input-nambre {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+
+
+.label-select {
+  display:inline-block;
+  width: 46%;
+  text-align: right;
+  line-height: 20px;
+  padding-top: 15px;
+}
+
+.input-select {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.label-radio {
+  display:inline-block;
+  width: 40%;
+  text-align: right;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.input-radio {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.label-checkbox {
+  display:inline-block;
+  width: 40%;
+  text-align: right;
+  line-height: 20px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.input-checkbox {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  line-height: 20px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+.label-textarea {
+  display:inline-block;
+  width: 40%;
+  text-align: right;
+  line-height: 20px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.input-textarea {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#submit {
+  background-color: #98DEFF;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  border: 2px solid rgba(220, 20, 60, 0.3);
+  font-family: "Josefin Sans";
+  font-size: 16px;
+}
