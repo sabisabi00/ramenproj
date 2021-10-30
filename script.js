@@ -1,5 +1,1 @@
-#pes {
-  text-align: left;
-  font-size: x-large;
-  
-}
+console.log('hola mundo!!')
